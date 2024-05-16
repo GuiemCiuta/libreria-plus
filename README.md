@@ -1,18 +1,13 @@
-## Getting Started
+# Welcome to LibreriaPlus!
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A lightweight library to survive the first year of Mupltiplatform Development Superior Vocational Degree!
 
-## Folder Structure
+## What does it include?
 
-The workspace contains two folders by default, where:
+It's divided by different utils. Here you are the whole list:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `MenuPlus`: Perfect for creating console menus. It handles all kind of exceptions and wrong inputs by the user. Creating a new option is as easy as adding a key-value pair to a map. Key is the title and value is a consumer that handles the thing. The consumer expects a Scanner as param, due technical issues.
+- `ScannerPlus`: A scanner-provided static class that provides lots of bullet-proof methods for getting input data from the user.
+- `NumerosPlus`: A library to work with numbers. Random, and things like that (currently, only random and random array).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> Disclaimer: this library is made by a Java noob. I've been programming in JS during some years, but Idk if that made me a good programmer.
